@@ -3,7 +3,7 @@ Dotfiles for my qtile desktop configuration.
 
 # Installation
 
-## Prerequisites
+## 1. Prerequisites
 
 ### Fedora 36
 ```
@@ -23,3 +23,14 @@ sudo ninja -C build install
 ```
 
 ### Arch Linux (coming soon)
+
+## 2. Setup
+
+```
+git clone https://github.com/aaronbee2010/qtileDotfiles.git
+cd qtileDotfiles
+cp Pictures/* ~/Pictures/
+cp dotConfig/* ~/.config/
+cp dotFonts/* ~/.fonts/
+cp xinitrc ~/.xinitrc
+```
