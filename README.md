@@ -6,6 +6,7 @@ Dotfiles for my qtile desktop configuration.
 ## 1. Prerequisites
 
 ### Fedora 36
+
 ```
 sudo dnf install @base-x qtile lxappearance alsa-utils kitty nitrogen rofi
 
@@ -22,7 +23,13 @@ ninja -C build
 sudo ninja -C build install
 ```
 
-### Arch Linux (coming soon)
+### Arch Linux
+
+```
+sudo pacman -S --needed xorg xorg-xinit qtile lxappearance alsa-utils kitty nitrogen rofi
+
+yay -S picom-ibhagwan-git
+```
 
 ## 2. Setup
 
