@@ -7,7 +7,7 @@ Dotfiles for my qtile desktop configuration.
 
 ### Fedora 36
 ```
-sudo dnf install @base-x qtile alsa-utils kitty nitrogen rofi
+sudo dnf install @base-x qtile lxappearance alsa-utils kitty nitrogen rofi
 
 git clone https://github.com/ibhagwan/picom.git
 
